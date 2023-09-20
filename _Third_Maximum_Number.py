@@ -1,0 +1,13 @@
+n=int(input())
+k=list(map(int,input().split()))
+k=set(k)
+k=list(k)
+k.sort()
+#print(k)
+b=len(k)
+if(b>=3):
+   print(k[b-3])
+elif(n==2):
+   print(k[1])
+else:
+  print(k)
