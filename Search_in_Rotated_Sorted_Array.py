@@ -1,0 +1,9 @@
+n=int(input())
+k=list(map(int,input().split()))
+b=int(input())
+s=set(k)
+l=-1
+if(k.count(b)>=1):
+   print(k.index(b))
+else:
+  print(l)
