@@ -7,7 +7,7 @@ for i in range(0,3):
   if(n[i]>k[i]):
      q+=1
   elif(n[i]<k[i]):
-     v+=1
+      v+=1
 a.append(q)
 a.append(v)
 for j in range(len(a)):
